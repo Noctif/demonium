@@ -1,0 +1,36 @@
+.margin_h2 {
+  margin: 10px 0px;
+}
+a {
+  color: whitesmoke;
+}
+.presentation {
+  text-align: center;
+  width: 90%;
+  height: auto;
+  padding: 20px 5% 25px 5%;
+}
+.equipe {
+  background-color: rgb(109, 14, 14);
+  padding: 10px 10px;
+  margin: 15px 5px;
+  border-radius: 10px;
+}
+.match {
+  background-color: rgb(109, 14, 14);
+  padding: 0.2em 10px;
+  margin: 15px 5px;
+  border-radius: 10px;
+}
+.boutique {
+  background-color: rgb(109, 14, 14);
+  padding: 10px 10px;
+  margin: 15px 5px;
+  border-radius: 10px;
+}
+.nouveaute {
+  background-color: rgb(109, 14, 14);
+  padding: 10px 10px;
+  margin: 15px 5px;
+  border-radius: 10px;
+}

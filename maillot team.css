@@ -1,0 +1,32 @@
+a{
+  color: whitesmoke;
+  text-decoration: none;
+}
+.maillot{
+  height: 60%;
+  width: auto;
+  margin: 30px;
+}
+
+.gallery {
+  position: relative;
+  width: 150px;
+  margin: 40px auto;
+  height: 200px; /* ajustez la hauteur */
+  overflow: hidden;
+  display:inline-block
+}
+
+.gallery img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease-in-out;
+}
+
+.gallery img:not(.active) {
+  transform: translateX(100%);
+}

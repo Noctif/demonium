@@ -1,0 +1,20 @@
+Idéés
+	une page avec l'agenda des scrim et entrainement
+	une page de presentation
+	une page des nouveautte
+
+page de presentation valider
+	titre daemonium esport presention
+	resume de se que nous somme
+	
+page des nouvauté valider
+	les resultat du dernier scrim
+	les nouveau menbres
+	les nouveaux jeu que nous proposons
+
+page agenda
+	agenda avec les date des entrainement et des scrim
+
+page joueur
+	tous les jeu que l'ont propose 
+	avec menu deroulant	

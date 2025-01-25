@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Daemonium</title>
+  <link rel="shortcut icon" href="assets/logo/logo web.png" />
+  <link rel="stylesheet" href="global.css" />
+  <link rel="stylesheet" href="equipe.css" />
+  <link rel="stylesheet" href="menu.css" />
+</head>
+
+<body>
+  <header><!--Menu de navigation-->
+    <nav class="navbar">
+      <a href="acceuil.html"><img id="logo" src="assets/logo/logo web.png" alt="Daemonium"></a>
+      <div class="nav-links">
+        <ul id="nav-liste">
+          <li><a id="nav-links" href="acceuil.html">acceuil</a></li>
+          <li><a id="nav-links" href="nouveauté.html">nouveautés</a></li>
+          <li><a id="nav-links" href="agenda.html">agenda</a></li>
+          <li><a id="nav-links" href="equipe.html">equipe</a></li>
+          <li><a id="nav-links" href="boutique.html">boutique</a></li>
+        </ul>
+      </div>
+      <img src="assets/icon/menu-btn.png" alt="menu" class="menu">
+      <script src="menu.js"></script>
+    </nav>
+  </header>
+  <main>
+    <h1>Nos Equipes</h1>
+    <div>
+      <a href="javascript: toggleDisplay('staff');">
+        <h2>Staff</h2>
+      </a>
+      <div id="staff" style="display: none;">
+        <div class="equipe"><!-- encadrer joueur / staff -->
+          <img src="assets/joueur_codm/noctif.jpg" alt="img noctif" class="info_joueur" />
+          <div class="info_joeur">
+            <h4 id="def_joueur">Noctif</h4>
+            <p id="def_joueur">role : Manager</p>
+          </div>
+        </div>
+        <div class="equipe">
+          <img src="assets/joueur_codm/oetam.png" alt="img oetam" class="info_joueur" />
+          <div class="info_joeur">
+            <h4 id="def_joueur">Oetam</h4>
+            <p id="def_joueur">role : co-manager</p>
+          </div>
+        </div>
+      </div>
+      <script src="equipe.js"></script>
+    </div>
+    <div>
+      <a href="javascript: toggleDisplay('coach');">
+        <h2>Coach</h2>
+      </a>
+      <div id="coach" style="display: none;">
+        <div class="equipe">
+          <img src="assets/joueur_codm/mon_ster.jpg" alt="img monster" class="info_joueur" />
+          <div class="info_joeur">
+            <h4 id="def_joueur">mon_ster</h4>
+            <p id="def_joueur">role : coach</p>
+          </div>
+        </div>
+        <div class="equipe">
+          <img src="assets/joueur_codm/je_sais_plus.jpg" alt="img je_sais_plus" class="info_joueur" />
+          <div class="info_joeur">
+            <h4 id="def_joueur">je_sais_plus</h4>
+            <p id="def_joueur">role : coach</p>
+          </div>
+        </div>
+        <div class="equipe">
+          <img src="assets/joueur_codm/oetam.png" alt="img oetam" class="info_joueur" />
+          <div class="info_joeur">
+            <h4 id="def_joueur">Oetam</h4>
+            <p id="def_joueur">role : coach</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <a href="javascript: toggleDisplay('codm');">
+        <h2>joueur CODM</h2>
+      </a>
+      <div id="codm" style="display: none;">
+        <div>
+          <div class="equipe">
+            <img src="assets/joueur_codm/noctif.jpg" alt="img noctif" class="info_joueur" />
+            <div class="info_joeur">
+              <h4 id="def_joueur">Noctif</h4>
+              <p id="def_joueur">role : </p>
+            </div>
+          </div>
+          <div class="equipe">
+            <img src="assets/joueur_codm/oetam.png" alt="img oetam" class="info_joueur" />
+            <div class="info_joeur">
+              <h4 id="def_joueur">Oetam</h4>
+              <p id="def_joueur">role : </p>
+            </div>
+          </div>
+          <div class="equipe">
+            <img src="assets/joueur_codm/san-é.png" alt="img san-é" class="info_joueur" />
+            <div class="info_joeur">
+              <h4 id="def_joueur">San-é</h4>
+              <p id="def_joueur">role : </p>
+            </div>
+          </div>
+          <div class="equipe">
+            <img src="assets/joueur_codm/maxox.png" alt="img maxox" class="info_joueur" />
+            <div class="info_joeur">
+              <h4 id="def_joueur">Max_to_ox</h4>
+              <p id="def_joueur">role : </p>
+            </div>
+          </div>
+          <div class="equipe">
+            <img src="assets/joueur_codm/oneshooteur.png" alt="img oneshooteur" class="info_joueur" />
+            <div class="info_joeur">
+              <h4 id="def_joueur">OneShooTeur</h4>
+              <p id="def_joueur">role : sub</p>
+            </div>
+          </div>
+          <div class="equipe">
+            <img src="assets/joueur_codm/markus.jpg" alt="img markus" class="info_joueur" />
+            <div class="info_joeur">
+              <h4 id="def_joueur">Markus</h4>
+              <p id="def_joueur">role : </p>
+            </div>
+          </div>
+          <div class="equipe">
+            <img src="assets/joueur_codm/cap_civil.jpg" alt="img cap_civil" class="info_joueur" />
+            <div class="info_joeur">
+              <h4 id="def_joueur">cap_civil</h4>
+              <p id="def_joueur">role : </p>
+            </div>
+          </div>
+          <div class="equipe">
+            <img src="assets/joueur_codm/razer.png" alt="img razer" class="info_joueur" />
+            <div class="info_joeur">
+              <h4 id="def_joueur">Razer</h4>
+              <p id="def_joueur">role : </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div> <!-- joueur rocket league -->
+      <a href="javascript: toggleDisplay('RL');">
+        <h2>joueur Rocket League</h2>
+      </a>
+      <div id="RL" style="display: none;">
+        <div class="equipe">
+          <img src="assets/joueur_codm/noctif.jpg" alt="img noctif" class="info_joueur" />
+          <div class="info_joeur">
+            <h4 id="def_joueur">Noctif</h4>
+            <p id="def_joueur">role : Manager</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <!-- nous contacter plus reseaux -->
+  <footer>
+    <div class="contact">
+      <h3>Nous contactez</h3>
+      <ul>
+        <li>daemonium.esport@gmail.com</li>
+      </ul>
+    </div>
+    <div class="contact">
+      <h3>Nos reseaux</h3><b>
+        <ul>
+          <li><a href="https://www.instagram.com/daemonium_esport/">instagram</a></li>
+          <li><a href="https://www.tiktok.com/@daemonium_esport">tiktok</a></li>
+          <li><a href="https://youtube.com/@Daemonium_esport/">youtube</a></li>
+          <li><a href="https://x.com/DaemoniumEsport/">X</a></li>
+          <li><a href="https://discord.gg/TxzwMTDRW8/">discord</a></li>
+
+        </ul>
+      </b>
+    </div>
+  </footer>
+</body>
+
+</html>
